@@ -271,6 +271,10 @@ header ul li:last-child {
   transition: 0.5s border-color ease, 0.5s background-color ease;
 }
 
+.cta .btn:first-child {
+  margin-right: 40px;
+}
+
 .cta .btn:hover {
   background-color: #de2e54;
   border-color: #de2e54;
