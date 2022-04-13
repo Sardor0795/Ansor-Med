@@ -150,6 +150,7 @@ header ul li:last-child {
 
 .hero .hero-content {
   padding-top: 120px;
+  padding-bottom: 120px;
 }
 
 .hero-title {
@@ -184,9 +185,8 @@ header ul li:last-child {
   color: #ffffff;
 }
 
-.hero .hero-img img {
-  width: 423px;
-  height: 504px;
+.hero .hero-img {
+  align-self: flex-end;
 }
 
 /* SERVICE */
