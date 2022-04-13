@@ -103,10 +103,6 @@ img {
   padding-bottom: 24px;
 }
 
-header nav {
-  margin-left: auto;
-}
-
 header .logo a {
   display: flex;
   align-items: center;
@@ -130,7 +126,7 @@ header .logo img {
 }
 
 header nav {
-  margin-right: 114px;
+  margin: 0 auto;
 }
 
 header ul li {
