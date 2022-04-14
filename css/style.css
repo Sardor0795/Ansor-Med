@@ -41,7 +41,7 @@ ul li a {
 a {
   display: inline-block;
   text-decoration: none;
-  transition: color 0.5s ease;
+  transition: color 0.3s ease;
 }
 
 a:hover {
@@ -319,6 +319,10 @@ footer .logo a:hover {
   color: #de2e54;
 }
 
+footer .logo a:active {
+  color: #ffffff;
+}
+
 footer .logo a img {
   margin-right: 16px;
 }
@@ -332,5 +336,9 @@ footer ul li:last-child {
 }
 
 footer ul li a {
+  color: #fff;
+}
+
+footer ul li a:active {
   color: #fff;
 }
