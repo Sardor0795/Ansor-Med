@@ -107,7 +107,7 @@ img {
   padding-bottom: 24px;
 }
 
-header .logo a {
+header .site-logo a {
   display: flex;
   align-items: center;
   font-family: "Open Sans", Arial, sans-serif;
@@ -119,11 +119,11 @@ header .logo a {
   transition: 0.3s color ease;
 }
 
-header .logo a:hover {
+header .site-logo a:hover {
   color: #de2e54;
 }
 
-header .logo img {
+header .site-logo img {
   width: 50px;
   height: 49.94px;
   margin-right: 16px;
@@ -309,21 +309,21 @@ footer .footer-container {
   align-items: center;
 }
 
-footer .logo a {
+footer .site-logo a {
   display: flex;
   align-items: center;
   color: #ffffff;
 }
 
-footer .logo a:hover {
+footer .site-logo a:hover {
   color: #de2e54;
 }
 
-footer .logo a:active {
+footer .site-logo a:active {
   color: #ffffff;
 }
 
-footer .logo a img {
+footer .site-logo a img {
   margin-right: 16px;
 }
 
