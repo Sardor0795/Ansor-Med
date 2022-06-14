@@ -108,14 +108,14 @@ img {
 
 /* HEADER */
 
-.header-container {
+.header__container {
   display: flex;
   align-items: center;
   padding-top: 24px;
   padding-bottom: 24px;
 }
 
-header .site-logo a {
+.header__link {
   display: flex;
   align-items: center;
   font-family: var(--main-font);
@@ -127,25 +127,25 @@ header .site-logo a {
   transition: 0.3s color ease;
 }
 
-header .site-logo a:hover {
+.header__link:hover {
   color: var(--accent-color);
 }
 
-header .site-logo img {
+.header__img {
   width: 50px;
   height: 49.94px;
   margin-right: 16px;
 }
 
-header nav {
+.header__nav {
   margin: 0 auto;
 }
 
-header ul li {
+.header-nav__item {
   margin-right: 32px;
 }
 
-header ul li:last-child {
+.header-nav__item:last-child {
   margin-right: 0;
 }
 
@@ -155,17 +155,17 @@ header ul li:last-child {
   background-color: #0eb4c1;
 }
 
-.hero-container {
+.hero__container {
   display: flex;
   justify-content: space-between;
 }
 
-.hero .hero-content {
+.hero__content {
   padding-top: 120px;
   padding-bottom: 120px;
 }
 
-.hero-title {
+.hero__title {
   font-family: var(--main-condenced-font);
   width: 500px;
   font-style: normal;
@@ -176,7 +176,7 @@ header ul li:last-child {
   margin-bottom: 16px;
 }
 
-.hero-text {
+.hero__text {
   font-family: var(--main-font);
   width: 440px;
   font-style: normal;
@@ -187,17 +187,17 @@ header ul li:last-child {
   margin-bottom: 36px;
 }
 
-.hero .btn {
+.hero__btn {
   border: 0;
   padding: 12px 24px;
 }
 
-.hero .btn:hover {
+.hero__btn:hover {
   background-color: rgba(222, 46, 84, 0.8);
   color: #ffffff;
 }
 
-.hero .hero-img {
+.hero__img {
   align-self: flex-end;
 }
 
@@ -208,7 +208,7 @@ header ul li:last-child {
   text-align: center;
 }
 
-.service-heading {
+.service__heading {
   font-family: var(--main-condenced-font);
   font-style: normal;
   font-weight: bold;
@@ -218,7 +218,7 @@ header ul li:last-child {
   margin-bottom: 56px;
 }
 
-.service-list {
+.service__list {
   width: 864px;
   min-width: 864px;
   margin-left: auto;
@@ -226,33 +226,33 @@ header ul li:last-child {
   margin-bottom: 60px;
 }
 
-.service-box {
+.service__box {
   display: flex;
   align-items: center;
   margin-bottom: 80px;
 }
 
-.service-box:last-child {
+.service__box:last-child {
   margin-bottom: 0;
 }
 
-.service-box-img-block {
+.service__block {
   margin-right: 64px;
   box-shadow: 0px 12px 24px -8px rgba(0, 107, 116, 0.3);
   border-radius: 24px;
 }
 
-.service-box-img {
+.service__img {
   border-radius: 24px;
   height: 200px;
   width: 200px;
 }
 
-.service-box-content {
+.service__content {
   text-align: left;
 }
 
-.service-box-title {
+.service__title {
   font-family: var(--main-condenced-font);
   font-style: normal;
   font-weight: bold;
@@ -262,7 +262,7 @@ header ul li:last-child {
   margin-bottom: 24px;
 }
 
-.service-box-text {
+.service__text {
   font-family: var(--main-font);
   font-style: normal;
   font-weight: normal;
@@ -278,7 +278,7 @@ header ul li:last-child {
   text-align: center;
 }
 
-.cta h2 {
+.cta__heading {
   font-family: var(--main-condenced-font);
   font-style: normal;
   font-weight: bold;
@@ -288,20 +288,21 @@ header ul li:last-child {
   margin-bottom: 40px;
 }
 
-.cta .btn {
+.cta__btn {
   color: #fff;
   background-color: inherit;
   border-color: #fff;
   transition: 0.5s border-color ease, 0.5s background-color ease;
 }
 
-.cta .btn:first-child {
+.cta__btn:first-child {
   margin-right: 40px;
 }
 
-.cta .btn:hover {
+.cta__btn:hover {
   background-color: var(--accent-color);
   border-color: var(--accent-color);
+  color: #fff;
 }
 
 /* FOOTER */
@@ -311,42 +312,42 @@ footer {
   padding: 24px 0;
 }
 
-footer .footer-container {
+.footer__container {
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
 
-footer .site-logo a {
+.footer-logo__link {
   display: flex;
   align-items: center;
   color: #ffffff;
 }
 
-footer .site-logo a:hover {
+.footer-logo__link:hover {
   color: var(--accent-color);
 }
 
-footer .site-logo a:active {
+.footer-logo__link:active {
   color: #ffffff;
 }
 
-footer .site-logo a img {
+.footer-logo__img {
   margin-right: 16px;
 }
 
-footer ul li {
+.footer-nav__item {
   margin-right: 32px;
 }
 
-footer ul li:last-child {
+.footer-nav__item:last-child {
   margin-right: 0;
 }
 
-footer ul li a {
+.footer-nav__link {
   color: #fff;
 }
 
-footer ul li a:active {
+.footer-nav__link:active {
   color: #fff;
 }
